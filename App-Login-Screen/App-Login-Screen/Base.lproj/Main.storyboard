@@ -19,7 +19,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="HUV-en-FmS">
                                 <rect key="frame" x="30" y="205.66666666666666" width="333" height="320.66666666666674"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="H2d-U6-Neb">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="H2d-U6-Neb">
                                         <rect key="frame" x="0.0" y="0.0" width="333" height="104.33333333333333"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tsh-lU-egT">
@@ -118,11 +118,21 @@
                                             <constraint firstAttribute="width" secondItem="vDh-Pr-eUl" secondAttribute="height" multiplier="8:1" id="cFu-Eb-Gjy"/>
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="titleShadowOffset" width="7" height="7"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="LOGIN">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
                                         </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
+                                                <color key="value" red="0.84837245939999995" green="0.2843351066" blue="0.20387148860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C2g-3D-crY"/>
                                             <segue destination="B6d-h3-BbO" kind="show" id="fXY-mR-dCN"/>
                                         </connections>
                                     </button>
@@ -144,6 +154,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Signup here">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="signUpAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDX-3y-t2s"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -170,6 +183,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="IlW-XB-0cg"/>
+                    <connections>
+                        <outlet property="dontHaveAccountLabel" destination="FDV-Qf-azT" id="JTi-kO-QAK"/>
+                        <outlet property="emailTextField" destination="64n-g5-g0s" id="SsD-9N-Qr6"/>
+                        <outlet property="emailUnderLineView" destination="OkN-dM-jFn" id="PPu-Yw-d4U"/>
+                        <outlet property="loginButton" destination="vDh-Pr-eUl" id="2Kf-e9-fl9"/>
+                        <outlet property="passwordTextField" destination="4om-Li-GfI" id="cHb-Fp-UO2"/>
+                        <outlet property="passwordUnderLineView" destination="idq-Zw-k9q" id="9Rd-2z-BEf"/>
+                        <outlet property="signUpButton" destination="QoE-Ip-Xph" id="LFB-GK-rHD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
