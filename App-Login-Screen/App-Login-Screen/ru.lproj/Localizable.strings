@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  App-Login-Screen
+
+  Created by Ruslan Galiev on 4/10/23.
+  
+*/
+
+"Error" = "Ошибка";
+"Wrong email or password" = "Неправильный email или пароль";
+"Ok" = "Ок";

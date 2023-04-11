@@ -86,7 +86,7 @@
                                                     <constraint firstAttribute="height" constant="34" id="QKh-8Z-5Ec"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -133,7 +133,6 @@
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C2g-3D-crY"/>
-                                            <segue destination="B6d-h3-BbO" kind="show" id="fXY-mR-dCN"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -187,10 +186,13 @@
                         <outlet property="dontHaveAccountLabel" destination="FDV-Qf-azT" id="JTi-kO-QAK"/>
                         <outlet property="emailTextField" destination="64n-g5-g0s" id="SsD-9N-Qr6"/>
                         <outlet property="emailUnderLineView" destination="OkN-dM-jFn" id="PPu-Yw-d4U"/>
+                        <outlet property="envelopeImageView" destination="Boz-GX-c0A" id="58s-Gq-GSy"/>
+                        <outlet property="lockImageView" destination="db8-uP-Be5" id="POu-KH-X3M"/>
                         <outlet property="loginButton" destination="vDh-Pr-eUl" id="2Kf-e9-fl9"/>
                         <outlet property="passwordTextField" destination="4om-Li-GfI" id="cHb-Fp-UO2"/>
                         <outlet property="passwordUnderLineView" destination="idq-Zw-k9q" id="9Rd-2z-BEf"/>
                         <outlet property="signUpButton" destination="QoE-Ip-Xph" id="LFB-GK-rHD"/>
+                        <segue destination="B6d-h3-BbO" kind="show" identifier="goToHomePage" id="IrO-NN-pwt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
