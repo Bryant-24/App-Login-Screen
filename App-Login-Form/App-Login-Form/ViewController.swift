@@ -93,7 +93,6 @@ class ViewController: UIViewController {
     }
 
     private func setEnabledLoginButton(_ isEnabled: Bool) {
-        print("No")
         loginButton.backgroundColor = isEnabled ? activeBlueColor : UIColor.systemGray6
         loginButton.tintColor = isEnabled ? .white : .gray
     }
