@@ -245,7 +245,7 @@
         <image name="envelope" catalog="system" width="128" height="93"/>
         <image name="lock" catalog="system" width="125" height="128"/>
         <namedColor name="Blue">
-            <color red="0.0" green="0.40392156862745099" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.40400001406669617" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

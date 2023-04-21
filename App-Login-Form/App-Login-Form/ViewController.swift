@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
         emailTextField.delegate = self
         passwordTextField.delegate = self
-        setEnabledLoginButton(false)
+        toggleLoginButton(isEnabled: false)
     }
     
     // MARK: - IBActions
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
     // MARK: - Methods
     private func checkField(_ textField: UITextField) {
         guard let text = textField.text?.trimmingCharacters(in: .whitespacesAndNewlines), !text.isEmpty else {
-            setEnabledLoginButton(false)
+            toggleLoginButton(isEnabled: false)
             return
         }
         
@@ -79,7 +79,7 @@ class ViewController: UIViewController {
             print("This Is Unknown Text Field")
         }
         
-        setEnabledLoginButton(isCorrectEmailValue && isCorrectPasswordValue)
+        toggleLoginButton(isEnabled: isCorrectEmailValue && isCorrectPasswordValue)
     }
     
     private func isCorrectEmail(_ email: String) -> Bool {
@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         return passwordPredicate.evaluate(with: password)
     }
 
-    private func setEnabledLoginButton(_ isEnabled: Bool) {
+    private func toggleLoginButton(isEnabled: Bool) {
         loginButton.backgroundColor = isEnabled ? activeBlueColor : UIColor.systemGray6
         loginButton.tintColor = isEnabled ? .white : .gray
     }
@@ -100,7 +100,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UITextFieldDelegate {
     func textFieldShouldClear(_ textField: UITextField) -> Bool {
-        setEnabledLoginButton(false)
+        toggleLoginButton(isEnabled: false)
         return true
     }
 }
