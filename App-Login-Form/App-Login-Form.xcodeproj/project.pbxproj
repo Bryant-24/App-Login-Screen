@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		447A846F29DF417F00DD5A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A846E29DF417F00DD5A63 /* AppDelegate.swift */; };
-		447A847129DF417F00DD5A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A847029DF417F00DD5A63 /* SceneDelegate.swift */; };
-		447A847329DF417F00DD5A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A847229DF417F00DD5A63 /* ViewController.swift */; };
-		447A847629DF417F00DD5A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447A847429DF417F00DD5A63 /* Main.storyboard */; };
-		447A847829DF418100DD5A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447A847729DF418100DD5A63 /* Assets.xcassets */; };
-		447A847B29DF418100DD5A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447A847929DF418100DD5A63 /* LaunchScreen.storyboard */; };
-		447A848329DF4B0100DD5A63 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A848229DF4B0100DD5A63 /* SecondViewController.swift */; };
+		44EC4F1A29E7223200D7C11C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC4F1929E7223200D7C11C /* AppDelegate.swift */; };
+		44EC4F1C29E7223200D7C11C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC4F1B29E7223200D7C11C /* SceneDelegate.swift */; };
+		44EC4F1E29E7223200D7C11C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC4F1D29E7223200D7C11C /* ViewController.swift */; };
+		44EC4F2129E7223200D7C11C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EC4F1F29E7223200D7C11C /* Main.storyboard */; };
+		44EC4F2329E7223400D7C11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EC4F2229E7223400D7C11C /* Assets.xcassets */; };
+		44EC4F2629E7223400D7C11C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EC4F2429E7223400D7C11C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		447A846B29DF417F00DD5A63 /* App-Login-Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Login-Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		447A846E29DF417F00DD5A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		447A847029DF417F00DD5A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		447A847229DF417F00DD5A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		447A847529DF417F00DD5A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		447A847729DF418100DD5A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		447A847A29DF418100DD5A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		447A847C29DF418100DD5A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		447A848229DF4B0100DD5A63 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		44EC4F1629E7223200D7C11C /* App-Login-Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Login-Form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EC4F1929E7223200D7C11C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44EC4F1B29E7223200D7C11C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44EC4F1D29E7223200D7C11C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44EC4F2029E7223200D7C11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44EC4F2229E7223400D7C11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44EC4F2529E7223400D7C11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44EC4F2729E7223400D7C11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		447A846829DF417F00DD5A63 /* Frameworks */ = {
+		44EC4F1329E7223200D7C11C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		447A846229DF417F00DD5A63 = {
+		44EC4F0D29E7223200D7C11C = {
 			isa = PBXGroup;
 			children = (
-				447A846D29DF417F00DD5A63 /* App-Login-Screen */,
-				447A846C29DF417F00DD5A63 /* Products */,
+				44EC4F1829E7223200D7C11C /* App-Login-Form */,
+				44EC4F1729E7223200D7C11C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		447A846C29DF417F00DD5A63 /* Products */ = {
+		44EC4F1729E7223200D7C11C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				447A846B29DF417F00DD5A63 /* App-Login-Screen.app */,
+				44EC4F1629E7223200D7C11C /* App-Login-Form.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		447A846D29DF417F00DD5A63 /* App-Login-Screen */ = {
+		44EC4F1829E7223200D7C11C /* App-Login-Form */ = {
 			isa = PBXGroup;
 			children = (
-				447A846E29DF417F00DD5A63 /* AppDelegate.swift */,
-				447A847029DF417F00DD5A63 /* SceneDelegate.swift */,
-				447A847229DF417F00DD5A63 /* ViewController.swift */,
-				447A848229DF4B0100DD5A63 /* SecondViewController.swift */,
-				447A847429DF417F00DD5A63 /* Main.storyboard */,
-				447A847729DF418100DD5A63 /* Assets.xcassets */,
-				447A847929DF418100DD5A63 /* LaunchScreen.storyboard */,
-				447A847C29DF418100DD5A63 /* Info.plist */,
+				44EC4F1929E7223200D7C11C /* AppDelegate.swift */,
+				44EC4F1B29E7223200D7C11C /* SceneDelegate.swift */,
+				44EC4F1D29E7223200D7C11C /* ViewController.swift */,
+				44EC4F1F29E7223200D7C11C /* Main.storyboard */,
+				44EC4F2229E7223400D7C11C /* Assets.xcassets */,
+				44EC4F2429E7223400D7C11C /* LaunchScreen.storyboard */,
+				44EC4F2729E7223400D7C11C /* Info.plist */,
 			);
-			path = "App-Login-Screen";
+			path = "App-Login-Form";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		447A846A29DF417F00DD5A63 /* App-Login-Screen */ = {
+		44EC4F1529E7223200D7C11C /* App-Login-Form */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 447A847F29DF418100DD5A63 /* Build configuration list for PBXNativeTarget "App-Login-Screen" */;
+			buildConfigurationList = 44EC4F2A29E7223400D7C11C /* Build configuration list for PBXNativeTarget "App-Login-Form" */;
 			buildPhases = (
-				447A846729DF417F00DD5A63 /* Sources */,
-				447A846829DF417F00DD5A63 /* Frameworks */,
-				447A846929DF417F00DD5A63 /* Resources */,
+				44EC4F1229E7223200D7C11C /* Sources */,
+				44EC4F1329E7223200D7C11C /* Frameworks */,
+				44EC4F1429E7223200D7C11C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "App-Login-Screen";
-			productName = "App-Login-Screen";
-			productReference = 447A846B29DF417F00DD5A63 /* App-Login-Screen.app */;
+			name = "App-Login-Form";
+			productName = "App-Login-Form";
+			productReference = 44EC4F1629E7223200D7C11C /* App-Login-Form.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		447A846329DF417F00DD5A63 /* Project object */ = {
+		44EC4F0E29E7223200D7C11C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					447A846A29DF417F00DD5A63 = {
+					44EC4F1529E7223200D7C11C = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 447A846629DF417F00DD5A63 /* Build configuration list for PBXProject "App-Login-Screen" */;
+			buildConfigurationList = 44EC4F1129E7223200D7C11C /* Build configuration list for PBXProject "App-Login-Form" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 447A846229DF417F00DD5A63;
-			productRefGroup = 447A846C29DF417F00DD5A63 /* Products */;
+			mainGroup = 44EC4F0D29E7223200D7C11C;
+			productRefGroup = 44EC4F1729E7223200D7C11C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				447A846A29DF417F00DD5A63 /* App-Login-Screen */,
+				44EC4F1529E7223200D7C11C /* App-Login-Form */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		447A846929DF417F00DD5A63 /* Resources */ = {
+		44EC4F1429E7223200D7C11C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				447A847B29DF418100DD5A63 /* LaunchScreen.storyboard in Resources */,
-				447A847829DF418100DD5A63 /* Assets.xcassets in Resources */,
-				447A847629DF417F00DD5A63 /* Main.storyboard in Resources */,
+				44EC4F2629E7223400D7C11C /* LaunchScreen.storyboard in Resources */,
+				44EC4F2329E7223400D7C11C /* Assets.xcassets in Resources */,
+				44EC4F2129E7223200D7C11C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		447A846729DF417F00DD5A63 /* Sources */ = {
+		44EC4F1229E7223200D7C11C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				447A848329DF4B0100DD5A63 /* SecondViewController.swift in Sources */,
-				447A847329DF417F00DD5A63 /* ViewController.swift in Sources */,
-				447A846F29DF417F00DD5A63 /* AppDelegate.swift in Sources */,
-				447A847129DF417F00DD5A63 /* SceneDelegate.swift in Sources */,
+				44EC4F1E29E7223200D7C11C /* ViewController.swift in Sources */,
+				44EC4F1A29E7223200D7C11C /* AppDelegate.swift in Sources */,
+				44EC4F1C29E7223200D7C11C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		447A847429DF417F00DD5A63 /* Main.storyboard */ = {
+		44EC4F1F29E7223200D7C11C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				447A847529DF417F00DD5A63 /* Base */,
+				44EC4F2029E7223200D7C11C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		447A847929DF418100DD5A63 /* LaunchScreen.storyboard */ = {
+		44EC4F2429E7223400D7C11C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				447A847A29DF418100DD5A63 /* Base */,
+				44EC4F2529E7223400D7C11C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		447A847D29DF418100DD5A63 /* Debug */ = {
+		44EC4F2829E7223400D7C11C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		447A847E29DF418100DD5A63 /* Release */ = {
+		44EC4F2929E7223400D7C11C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +280,7 @@
 			};
 			name = Release;
 		};
-		447A848029DF418100DD5A63 /* Debug */ = {
+		44EC4F2B29E7223400D7C11C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,7 +289,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64879R8QV4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "App-Login-Screen/Info.plist";
+				INFOPLIST_FILE = "App-Login-Form/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,15 +299,18 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lakers-kobe-yandex.ru.App-Login-Screen";
+				PRODUCT_BUNDLE_IDENTIFIER = "lakers-kobe-yandex.ru.App-Login-Form";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		447A848129DF418100DD5A63 /* Release */ = {
+		44EC4F2C29E7223400D7C11C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64879R8QV4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "App-Login-Screen/Info.plist";
+				INFOPLIST_FILE = "App-Login-Form/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,36 +329,39 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lakers-kobe-yandex.ru.App-Login-Screen";
+				PRODUCT_BUNDLE_IDENTIFIER = "lakers-kobe-yandex.ru.App-Login-Form";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		447A846629DF417F00DD5A63 /* Build configuration list for PBXProject "App-Login-Screen" */ = {
+		44EC4F1129E7223200D7C11C /* Build configuration list for PBXProject "App-Login-Form" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				447A847D29DF418100DD5A63 /* Debug */,
-				447A847E29DF418100DD5A63 /* Release */,
+				44EC4F2829E7223400D7C11C /* Debug */,
+				44EC4F2929E7223400D7C11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		447A847F29DF418100DD5A63 /* Build configuration list for PBXNativeTarget "App-Login-Screen" */ = {
+		44EC4F2A29E7223400D7C11C /* Build configuration list for PBXNativeTarget "App-Login-Form" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				447A848029DF418100DD5A63 /* Debug */,
-				447A848129DF418100DD5A63 /* Release */,
+				44EC4F2B29E7223400D7C11C /* Debug */,
+				44EC4F2C29E7223400D7C11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 447A846329DF417F00DD5A63 /* Project object */;
+	rootObject = 44EC4F0E29E7223200D7C11C /* Project object */;
 }
